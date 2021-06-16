@@ -1,0 +1,183 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600
+}
+
+.form-control {
+    border-radius: 3px
+}
+
+.btn {
+    padding: 8px 12px;
+    border: 0
+}
+
+.btn-primary {
+    color: #01573c;
+    background-color: #F6C249;
+}
+
+.btn-login{
+    background-color: #f2352e;
+    color: #fff;
+    font-weight:bold;
+}
+
+
+.footer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: -36px;
+    color: #fff;
+    text-align: center
+}
+
+.main-sidebar {
+    padding-top: 80px;
+    background-color: #222
+}
+
+.main-sidebar .sidebar-menu li {
+    border-left: 3px solid transparent
+}
+
+.main-sidebar .sidebar-menu li:hover,
+.main-sidebar .sidebar-menu li.is-active {
+    border-left-color: #F6C249
+}
+
+.main-sidebar .sidebar-menu li .link {
+    padding-left: 56px;
+    color: #fff;
+    background-position: left 16px center;
+    background-repeat: no-repeat
+}
+
+.content-wrapper {
+    background-color: #fff
+}
+
+.content-header h1 {
+    font-size: 30px
+}
+
+.content-header h1 .link {
+    color: #ccc
+}
+
+.login-page {
+    min-height: 100vh;
+    padding-top: 72px;
+    padding-bottom: 36px;
+    /* background-color: #01573c; */
+    background-color: #222d32;
+}
+
+.login-logo {
+    margin-top: 0;
+    color: #092959;
+}
+
+.login-box {
+    margin-top: 0 auto;
+    margin-bottom: 0
+}
+
+.login-box-body {
+    padding: 0;
+    border-radius: 8px
+}
+
+.login-box-body .top,
+.login-box-body .bottom {
+    padding: 16px
+}
+
+.login-box-body .top {
+    padding-top: 24px;
+    padding-bottom: 0
+}
+
+.login-box-body .top .form-group .form-control {
+    background-color: #EAEBEC
+}
+
+.login-box-body .top .form-group.has-feedback .form-control {
+    padding-right: 160px
+}
+
+.login-box-body .top .form-group.has-feedback .link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 34px;
+    line-height: 34px;
+    color: #092959
+}
+
+.login-box-body .bottom {
+    border-top: 1px solid #ccc
+}
+
+.login-box-body .bottom .check .text {
+    display: inline-block;
+    line-height: 36px
+}
+
+.login-box-body .bottom .check .toggle {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 12px;
+    margin-left: 8px;
+    margin-bottom: 0;
+    background-color: #ddd;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background .3s ease-out
+}
+
+.login-box-body .bottom .check .toggle:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    transform: translateX(20px);
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #092959;
+    border-radius: 100%;
+    transition: transform .3s ease-out
+}
+
+.login-box-body .bottom .check .toggle.is-active {
+    background-color: #F6C249
+}
+
+.login-box-body .bottom .check .toggle.is-active:after {
+    transform: translateX(0)
+}
+
+.login-box-body .bottom .check input {
+    display: none
+}
+
+/*# sourceMappingURL=style.css.map */
